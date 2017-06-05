@@ -5,8 +5,9 @@ RUN apk --no-cache add \
         bash \
         git \
         curl \
+        make \
         python \
-        py-pip \
+        py2-pip \
         python-dev
 RUN pip install --upgrade pip \
         awsebcli \
