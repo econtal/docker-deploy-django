@@ -26,4 +26,5 @@ RUN mkdir ~/.aws
 
 # https://github.com/docker-library/python/issues/112
 RUN ln -s /usr/include/locale.h /usr/include/xlocale.h
-RUN pip install --upgrade numpy 
+RUN pip install --upgrade numpy \
+        scipy
