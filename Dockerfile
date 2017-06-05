@@ -7,8 +7,8 @@ RUN apk --no-cache add \
         curl \
         python \
         py-pip \
-        python-dev \
-    pip install --upgrade pip \
+        python-dev
+RUN pip install --upgrade pip \
         awsebcli \
         awscli \
         celery \
