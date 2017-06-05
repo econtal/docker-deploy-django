@@ -8,7 +8,9 @@ RUN apk --no-cache add \
         openssl-dev \
         python \
         py2-pip \
-        python-dev
+        python-dev \
+        py-numpy@testing \
+        py-scipy
 RUN pip install --upgrade pip \
         awsebcli \
         awscli \
@@ -25,6 +27,6 @@ RUN pip install --upgrade pip \
 RUN mkdir ~/.aws
 
 # https://github.com/docker-library/python/issues/112
-RUN ln -s /usr/include/locale.h /usr/include/xlocale.h
-RUN pip install --upgrade numpy \
+#RUN ln -s /usr/include/locale.h /usr/include/xlocale.h
+#RUN pip install --upgrade numpy \
         scipy
