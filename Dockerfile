@@ -13,10 +13,13 @@ RUN pip install --upgrade pip \
         awsebcli \
         awscli \
         celery \
+        credstash \
         django-cors-headers \
         djangorestframework \
-        credstash \
         Django \
+        numpy \
+        social-auth-core \
+        social-auth-app-django \
         sphinx \
         sphinxcontrib.httpdomain
 
