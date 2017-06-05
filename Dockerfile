@@ -12,6 +12,8 @@ RUN pip install --upgrade pip \
         awsebcli \
         awscli \
         celery \
+        django-cors-headers \
+        djangorestframework \
         credstash \
         Django \
         sphinx \
