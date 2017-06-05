@@ -14,6 +14,7 @@ RUN apk --no-cache add \
         celery \
         credstash \
         Django \
-        sphinx
+        sphinx \
+        sphinxcontrib.httpdomain
 
 RUN mkdir ~/.aws
