@@ -6,11 +6,12 @@ RUN apk --no-cache add \
         bash \
         libffi-dev \
         openssl-dev \
-        python \
         py2-pip \
-        python-dev \
-        py-numpy@testing \
-        py-scipy
+        python-dev
+RUN echo http://dl-cdn.alpinelinux.org/alpine/edge/testing >> /etc/apk/repositories && \
+    echo http://dl-cdn.alpinelinux.org/alpine/edge/community >> /etc/apk/repositories && \
+    apk update && \
+    apk add py-scipy
 RUN pip install --upgrade pip \
         awsebcli \
         awscli \
