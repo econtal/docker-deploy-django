@@ -5,6 +5,7 @@ RUN apk --no-cache add \
         alpine-sdk \
         bash \
         libffi-dev \
+        openssl-dev \
         python \
         py2-pip \
         python-dev
