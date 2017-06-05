@@ -4,6 +4,7 @@ MAINTAINER Emile Contal <emile@crossingminds.com>
 RUN apk --no-cache add \
         alpine-sdk \
         bash \
+        libffi-dev \
         python \
         py2-pip \
         python-dev
