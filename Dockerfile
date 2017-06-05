@@ -3,6 +3,7 @@ MAINTAINER Emile Contal <emile@crossingminds.com>
 
 RUN apk --no-cache add \
         bash \
+        build-essential \
         git \
         curl \
         make \
