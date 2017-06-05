@@ -11,6 +11,7 @@ RUN apk --no-cache add \
     pip install --upgrade pip \
         awsebcli \
         awscli \
+        celery \
         credstash \
         Django \
         sphinx
