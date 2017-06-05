@@ -2,11 +2,8 @@ FROM alpine
 MAINTAINER Emile Contal <emile@crossingminds.com>
 
 RUN apk --no-cache add \
+        alpine-sdk \
         bash \
-        build-essential \
-        git \
-        curl \
-        make \
         python \
         py2-pip \
         python-dev
