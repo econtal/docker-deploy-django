@@ -17,10 +17,13 @@ RUN pip install --upgrade pip \
         django-cors-headers \
         djangorestframework \
         Django \
-        numpy \
         social-auth-core \
         social-auth-app-django \
         sphinx \
         sphinxcontrib.httpdomain
 
 RUN mkdir ~/.aws
+
+# https://github.com/docker-library/python/issues/112
+RUN ln -s /usr/include/locale.h /usr/include/xlocale.h
+RUN pip install --upgrade numpy 
