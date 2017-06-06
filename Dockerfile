@@ -5,6 +5,8 @@ RUN apk --no-cache add \
         alpine-sdk \
         bash \
         libffi-dev \
+        mysql-client \
+        py-mysqldb \
         openssl-dev \
         py2-pip \
         python-dev
@@ -22,7 +24,7 @@ RUN pip install --upgrade pip \
         Django \
         social-auth-core \
         social-auth-app-django \
-        sphinx \
+        sphinx==1.4 \
         sphinxcontrib.httpdomain
 
 RUN mkdir ~/.aws
