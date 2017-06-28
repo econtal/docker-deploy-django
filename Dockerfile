@@ -25,7 +25,8 @@ RUN pip install --upgrade pip \
         social-auth-core \
         social-auth-app-django \
         sphinx==1.4 \
-        sphinxcontrib.httpdomain
+        sphinxcontrib.httpdomain \
+        unidecode
 
 RUN mkdir ~/.aws
 
