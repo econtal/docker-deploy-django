@@ -22,6 +22,7 @@ RUN pip install --upgrade pip \
         django-cors-headers \
         djangorestframework \
         Django \
+        simplejson \
         social-auth-core \
         social-auth-app-django \
         sphinx==1.4 \
