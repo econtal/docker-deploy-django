@@ -27,9 +27,11 @@ RUN pip install --upgrade pip \
         social-auth-core \
         social-auth-app-django \
         sphinx==1.4 \
+        sphinx_bootstrap_theme \
         sphinxcontrib.httpdomain \
-        unidecode
-
+        unidecode \
+        user_agents
+        
 RUN mkdir ~/.aws
 
 # https://github.com/docker-library/python/issues/112
