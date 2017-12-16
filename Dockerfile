@@ -22,6 +22,7 @@ RUN pip install --upgrade pip \
         django-cors-headers \
         djangorestframework \
         Django \
+        pytest \
         redis \
         simplejson \
         social-auth-core \
