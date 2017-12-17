@@ -21,7 +21,7 @@ RUN pip install --upgrade pip \
         credstash \
         django-cors-headers \
         djangorestframework \
-        Django \
+        Django==1.11.8 \
         pytest \
         redis \
         simplejson \
