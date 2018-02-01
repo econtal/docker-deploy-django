@@ -23,6 +23,7 @@ RUN pip install --upgrade pip \
         djangorestframework \
         Django==1.11.8 \
         pytest \
+        python-json-logger \
         redis \
         simplejson \
         social-auth-core \
