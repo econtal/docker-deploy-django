@@ -20,14 +20,14 @@ RUN pip install --upgrade pip \
         celery \
         credstash \
         django-cors-headers \
-        djangorestframework \
+        djangorestframework==3.5.3 \
         Django==1.11.8 \
         pytest \
-        python-json-logger \
+        python-json-logger==0.1.8 \
         redis \
-        simplejson \
-        social-auth-core \
-        social-auth-app-django \
+        simplejson==3.11.1 \
+        social-auth-core==1.2.0 \
+        social-auth-app-django==1.1.0 \
         sphinx==1.4 \
         sphinx_bootstrap_theme \
         sphinxcontrib.httpdomain \
