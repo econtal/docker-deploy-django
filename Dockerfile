@@ -5,6 +5,7 @@ RUN apk --no-cache add \
         alpine-sdk \
         bash \
         libffi-dev \
+        linux-headers \
         mysql-client \
         py-mysqldb \
         openssl-dev \
