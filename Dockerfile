@@ -22,6 +22,7 @@ RUN pip install --upgrade pip \
         django-cors-headers \
         djangorestframework==3.5.3 \
         Django==1.11.8 \
+        google-cloud \
         pytest \
         python-json-logger==0.1.8 \
         redis \
